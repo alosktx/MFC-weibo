@@ -1,88 +1,88 @@
 ========================================================================
-       MICROSOFT FOUNDATION CLASS LIBRARY : Weibo
-========================================================================
+================================================== ======================
+       MFC：微博
+================================================== ======================
 
 
-AppWizard has created this Weibo application for you.  This application
-not only demonstrates the basics of using the Microsoft Foundation classes
-but is also a starting point for writing your application.
+AppWizard为您创建了这个微博应用程序。这个应用程序
+不仅演示了使用Microsoft Foundation类的基础知识
+但也是编写应用程序的起点。
 
-This file contains a summary of what you will find in each of the files that
-make up your Weibo application.
+此文件包含您将在每个文件中找到的内容的摘要
+编写您的微博应用程序。
 
 Weibo.dsp
-    This file (the project file) contains information at the project level and
-    is used to build a single project or subproject. Other users can share the
-    project (.dsp) file, but they should export the makefiles locally.
+    该文件（项目文件）包含项目级别的信息
+    用于构建单个项目或子项目。其他用户可以分享
+    project（.dsp）文件，但是它们应该在本地导出makefile。
 
 Weibo.h
-    This is the main header file for the application.  It includes other
-    project specific headers (including Resource.h) and declares the
-    CWeiboApp application class.
+    这是应用程序的主头文件。它包括其他
+    项目特定的头文件（包括Resource.h）并声明
+    CWeiboApp应用程序类。
 
 Weibo.cpp
-    This is the main application source file that contains the application
-    class CWeiboApp.
+    这是包含应用程序的主应用程序源文件
+    CWeiboApp类。
 
 Weibo.rc
-    This is a listing of all of the Microsoft Windows resources that the
-    program uses.  It includes the icons, bitmaps, and cursors that are stored
-    in the RES subdirectory.  This file can be directly edited in Microsoft
-	Visual C++.
+    这是所有Microsoft Windows资源的列表
+    程序使用。它包括存储的图标，位图和游标
+    在RES子目录中。此文件可以在Visual C ++中直接编辑。
 
 Weibo.clw
-    This file contains information used by ClassWizard to edit existing
-    classes or add new classes.  ClassWizard also uses this file to store
-    information needed to create and edit message maps and dialog data
-    maps and to create prototype member functions.
+    此文件包含ClassWizard用于编辑现有信息的信息
+    类或添加新类。 ClassWizard也使用此文件进行存储
+    创建和编辑消息映射和对话数据所需的信息
+    映射和创建原型成员函数。
 
-res\Weibo.ico
-    This is an icon file, which is used as the application's icon.  This
-    icon is included by the main resource file Weibo.rc.
+res\ Weibo.ico
+    这是一个图标文件，用作应用程序的图标。这个
+    图标包含在主资源文件Weibo.rc中。
 
-res\Weibo.rc2
-    This file contains resources that are not edited by Microsoft 
-	Visual C++.  You should place all resources not editable by
-	the resource editor in this file.
-
-
+res\ Weibo.rc2
+    此文件包含Microsoft未编辑的资源
+    Visual C ++。您应该放置所有不可编辑的资源在
+    此文件中的资源编辑器。
 
 
-/////////////////////////////////////////////////////////////////////////////
-
-AppWizard creates one dialog class:
-
-WeiboDlg.h, WeiboDlg.cpp - the dialog
-    These files contain your CWeiboDlg class.  This class defines
-    the behavior of your application's main dialog.  The dialog's
-    template is in Weibo.rc, which can be edited in Microsoft
-	Visual C++.
 
 
-/////////////////////////////////////////////////////////////////////////////
-Other standard files:
+////////////////////////////////////////////////// ///////////////////////////
 
-StdAfx.h, StdAfx.cpp
-    These files are used to build a precompiled header (PCH) file
-    named Weibo.pch and a precompiled types file named StdAfx.obj.
+AppWizard创建一个对话框类：
 
-Resource.h
-    This is the standard header file, which defines new resource IDs.
-    Microsoft Visual C++ reads and updates this file.
+WeiboDlg.h，WeiboDlg.cpp  - 对话框
+    这些文件包含您的CWeiboDlg类。这个类定义
+    应用程序主对话框的行为。对话框
+    模板在Weibo.rc中，可以在Microsoft Visual C ++中编辑
 
-/////////////////////////////////////////////////////////////////////////////
-Other notes:
 
-AppWizard uses "TODO:" to indicate parts of the source code you
-should add to or customize.
 
-If your application uses MFC in a shared DLL, and your application is 
-in a language other than the operating system's current language, you
-will need to copy the corresponding localized resources MFC42XXX.DLL
-from the Microsoft Visual C++ CD-ROM onto the system or system32 directory,
-and rename it to be MFCLOC.DLL.  ("XXX" stands for the language abbreviation.
-For example, MFC42DEU.DLL contains resources translated to German.)  If you
-don't do this, some of the UI elements of your application will remain in the
-language of the operating system.
+////////////////////////////////////////////////// ///////////////////////////
+其他标准文件：
+
+StdAfx.h，StdAfx.cpp
+    这些文件用于构建预编译头（PCH）文件
+    命名为Weibo.pch，名为StdAfx.obj的预编译类型文件。
+
+RESOURCE.H
+    这是标准头文件，用于定义新资源ID。
+    Microsoft Visual C ++读取并更新此文件。
+
+////////////////////////////////////////////////// ///////////////////////////
+其他说明：
+
+应用程序向导使用“TODO：”来表示您的源代码部分
+应该添加或自定义。
+
+如果您的应用程序在共享DLL中使用MFC，并且您的应用程序是
+您使用的语言不是操作系统的当前语言
+将需要复制相应的本地化资源MFC42XXX.DLL
+从Microsoft Visual C ++ CD-ROM到系统或system32目录，
+并将其重命名为MFCLOC.DLL。 （“XXX”代表语言缩写。
+例如，MFC42DEU.DLL包含翻译为德语的资源。）如果您
+不要这样做，你的应用程序的一些UI元素将保留在
+操作系统的语言。
 
 /////////////////////////////////////////////////////////////////////////////
